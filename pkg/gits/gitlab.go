@@ -165,7 +165,7 @@ func (g *GitlabProvider) GetRepository(org, name string) (*GitRepository, error)
 	if err != nil {
 		return nil, err
 	}
-	project, response, err := g.Client.Projects.GetProject(pid)
+	project, response, err := g.Client.Projects.GetProject(pid, nil)
 	if err != nil {
 		return nil, fmt.Errorf("request: %s failed due to: %s", response.Request.URL, err)
 	}
@@ -217,7 +217,10 @@ func (g *GitlabProvider) ForkRepository(originalOrg, name, destinationOrg string
 	if err != nil {
 		return nil, err
 	}
-	project, _, err := g.Client.Projects.ForkProject(pid)
+	opt := &gitlab.ForkProjectOptions{
+			Namespace:&destinationOrg,
+		}
+	project, _, err := g.Client.Projects.ForkProject(pid, opt)
 	if err != nil {
 		return nil, err
 	}
@@ -313,7 +316,7 @@ func (g *GitlabProvider) UpdatePullRequestStatus(pr *GitPullRequest) error {
 	if err != nil {
 		return err
 	}
-	mr, _, err := g.Client.MergeRequests.GetMergeRequest(pid, *pr.Number)
+	mr, _, err := g.Client.MergeRequests.GetMergeRequest(pid, *pr.Number, nil)
 	if err != nil {
 		return err
 	}

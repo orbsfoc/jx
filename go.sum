@@ -741,8 +741,8 @@ github.com/viniciuschiele/tarx v0.0.0-20151205142357-6e3da540444d h1:Z8Bp/K+wf1+
 github.com/viniciuschiele/tarx v0.0.0-20151205142357-6e3da540444d/go.mod h1:8uo3DXfN526YN7JjAp4JkOMm4foTW4vPzPHaAzb4xiY=
 github.com/wbrefvem/go-bitbucket v0.0.0-20190128183802-fc08fd046abb h1:KrmaSo+FHWBt1H652w/uerwzKvQqh4H7Jgyxm4hz2BQ=
 github.com/wbrefvem/go-bitbucket v0.0.0-20190128183802-fc08fd046abb/go.mod h1:Z91j2jYBApRjJ0zlXDCxPrrZR8ohkkd4g0n+Hqs1w0Q=
-github.com/xanzy/go-gitlab v0.0.0-20180814191223-f3bc634ab936 h1:sW9o8nzZskZn9WSsSzuXN2PJHOlSLkS4sAgz2VWF3Nc=
-github.com/xanzy/go-gitlab v0.0.0-20180814191223-f3bc634ab936/go.mod h1:CRKHkvFWNU6C3AEfqLWjnCNnAs4nj8Zk95rX2S3X6Mw=
+github.com/xanzy/go-gitlab v0.18.0 h1:LybNSWSIw8BK+GnxuETAhUXEzzh5rHsHjopqVkGJXRE=
+github.com/xanzy/go-gitlab v0.18.0/go.mod h1:LSfUQ9OPDnwRqulJk2HcWaAiFfCzaknyeGvjQI67MbE=
 github.com/xanzy/ssh-agent v0.2.0 h1:Adglfbi5p9Z0BmK2oKU9nTG+zKfniSfnaMYB+ULd+Ro=
 github.com/xanzy/ssh-agent v0.2.0/go.mod h1:0NyE30eGUDliuLEHJgYte/zncp2zdTStcOnWhgSqHD8=
 github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f h1:J9EGpcZtP0E/raorCMxlFGSTBrsSlaDGf3jU/qvAE2c=

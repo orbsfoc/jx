@@ -122,7 +122,7 @@ require (
 	github.com/trivago/tgo v1.0.1 // indirect
 	github.com/ulikunitz/xz v0.5.6 // indirect
 	github.com/wbrefvem/go-bitbucket v0.0.0-20190128183802-fc08fd046abb
-	github.com/xanzy/go-gitlab v0.0.0-20180814191223-f3bc634ab936
+	github.com/xanzy/go-gitlab v0.18.0
 	github.com/xanzy/ssh-agent v0.2.0 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
